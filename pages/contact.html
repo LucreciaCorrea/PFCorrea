@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a class="link-logo" href="../index.html"><img class="header__logo" src="../image/avatar.png" alt="avatar"/></a>
+        <nav class="header__nav">
+          <ul class="header__list-container">
+            <li class="header__li-nav">
+              <a class="header__text" href="./about.html">About</a>
+            </li>
+            <li class="header__li-nav">
+              <a class="header__text" href="./projects.html">Projects</a>
+            </li>
+            <li class="header__li-nav">
+              <a class="header__text" href="./resume.html">Resume</a>
+            </li>
+            <li class="header__li-nav">
+              <a class="header__text" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <h1 class="title color-white">Contact me</h1>
+    <form class="form" action="post">
+        <label class="text color-white" for="name" >Name:</label>
+        <input class="input" type="text" id="name" required placeholder="Ej. Jorge"/>
+        <label class="text color-white" for="email">Email:</label>
+        <input class="input" type="email" id="email" required placeholder="ejemplo@ejemplo.com">
+        <label class="text color-white" for="subject">Subject:</label>
+        <select class="input" name="subject" id="subject">
+            <option value="" >Select...</option>
+            <option value="work">work</option>
+            <option value="publicity">publicity</option>
+            <option value="github access">github access</option>
+        </select>
+        <textarea class="input" name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
+        <div class="form__button">
+        <input class="secondary-button" type="reset" value="Reset">
+        <input class="main-button" type="submit" value="Send">
+      </div>
+    </form>
+    <footer class="footer">
+        <div class="footer__personal-info-container">
+          <a class="link-logo" href="index.html"><img class="footer__logo" src="../image/avatar.png" width="60" alt="avatar"/></a>
+          <div class="footer__text">
+            <h3>Julián Calvé</h3>
+            <h4>Web 3 Developer</h4>
+          </div>
+        </div>
+          <a class="footer__redes" href="https://www.github.com/juliancalve" target="_blank"
+            ><img class="footer__redes__logo" src="../image/github.png" alt="github"
+          /></a>
+          <a class="footer__redes" href="https://www.linkedin.com/in/juliancalve" target="_blank"
+            ><img class="footer__redes__logo" src="../image/linkedin.png" alt="linkedin"
+          /></a>
+          <a class="footer__redes" href="mailto:julian.calve@gmail.com" target="_blank"
+            ><img class="footer__redes__logo" src="../image/mail ico.svg" alt="gmail"
+          /></a>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100vh;
+}
+
+body {
+    background-color: #0D0E10 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: #1F2327;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.header__logo {
+    margin: 10px 0px 10px 80px;
+    width: 50px;
+}
+
+.header__nav {
+    display: inline-block;
+    padding-right: 300px;
+}
+
+.header__list-container {
+    margin-top: 0;
+}
+
+.header__li-nav {
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.header__text {
+    color: #7C8084;
+}
+
+.header__text:hover{
+    color: #FBFBF2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.section__img {
+    width: 300px;
+    margin: 150px 100px 150px 200px;
+    display: inline-block;
+}
+
+.section__text{
+    margin: auto;
+    display: inline-block;
+    color: #FBFBF2;
+    margin-left: 0;
+}
+
+.section__text__title {
+    font-size: 4rem;
+}
+
+.section__text__subtitle {
+    font-size: 3rem;
+}
+
+.main-button {
+    color: #FBFBF2;
+    background-color: #343A40;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    background-color: #1F2327;
+}
+
+.secondary-button {
+    color: #FBFBF2;
+    background-color: transparent;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 2px solid #343A40;
+    margin-top: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.secondary-button:hover{
+    background-color: #343A40;
+}
+
+.footer {
+    background-color: #1F2327;
+    display: flex;
+    align-items: center;
+}
+
+.footer__personal-info-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.footer__logo {
+    width: 50px;
+    margin: 70px 30px 70px 70px;
+}
+
+.footer__text {
+    color: #FBFBF2;
+    margin-right: 800px;
+}
+
+.footer__redes {
+    padding: 20px;
+}
+
+.footer__redes__logo {
+    width: 40px;
+}
+
+
+/*CSS About*/
+
+.color-white {
+    color: #FBFBF2;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subtitle{
+    margin-bottom: 5px;
+}
+
+.text{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.layout{
+    padding: 50px 350px 80px 350px;
+}
+
+.section-about__img{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-image: url('../image/projects.png');
+    background-size: cover;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+/*Resume*/
+
+.layout__resume{
+    display: flex;
+
+}
+
+.aside{
+    width: 200px;
+    margin-left: 10%;
+}
+
+.container-resume{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.list{
+    margin-bottom: 20px;
+}
+
+.aside__redes{
+    margin-top: 30px;
+}
+
+/*Form*/
+
+.form{
+    background-color: transparent;
+    border: 3px solid #1F2327;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.form__button{
+    justify-content: end;
+    display: flex;
+}
+
+.input{
+    color: #343A40;
+    background-color: transparent;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 2px solid #343A40;  
+    margin-bottom: 5px;  
+}
