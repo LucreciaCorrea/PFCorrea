@@ -11,7 +11,7 @@ html,body{
 }
 
 body {
-    background-color: #0D0E10 ;
+    background-color: #0D0E10 !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,7 +60,7 @@ a {
 }
 
 .header__text:hover{
-    color: #FBFBF2;
+    color: #FBFBF2 !important;
 }
 
 .container {
