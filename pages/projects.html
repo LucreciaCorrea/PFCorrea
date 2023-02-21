@@ -6,33 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
   </head>
 
   <body>
-    <header class="header">
-      <a class="link-logo" href="../index.html"
-        ><img class="header__logo" src="../image/avatar.png" alt="avatar"
-      /></a>
-      <nav class="header__nav">
-        <ul class="header__list-container">
-          <li class="header__li-nav">
-            <a class="header__text" href="./about.html">About</a>
-          </li>
-          <li class="header__li-nav">
-            <a class="header__text" href="./projects.html">Projects</a>
-          </li>
-          <li class="header__li-nav">
-            <a class="header__text" href="./resume.html">Resume</a>
-          </li>
-          <li class="header__li-nav">
-            <a class="header__text" href="./contact.html">Contact</a>
-          </li>
-        </ul>
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-lg container navbar-dark bg-dark">
+  
+        <div class="container-fluid ">
+          <a class="link-logo d-flex justify-content-start" href="../index.html"><img width="50" src="../image/logo.png"
+              alt="logo" /></a>
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4"></div>
+          </div>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex justify-content-between w-75">
+                <a class="nav-link text-secondary-emphasis header__text" href="../pages/about.html">About</a>
+                <a class="nav-link text-secondary-emphasis header__text" href="../pages/projects.html">Projects</a>
+                <a class="nav-link text-secondary-emphasis header__text" href="../pages/resume.html">Resume</a>
+                <a class="nav-link text-secondary-emphasis header__text" href="../pages/contact.html">Contact</a>
+              </div>
+            </div>
+        </div>
       </nav>
     </header>
+
     <h1 class="title color-white">My projects</h1>
-    <section class="container-cards">
-      <article class="cards">
+
+    <section class="container-cards px-5 lg d-flex row">
+      <div class="card text-bg-dark mb-3" style="width: 18rem;">
+        <img src="../image/latamex.png" class="card-img-top" alt="imagen del sitio">
+        <div class="card-body">
+          <h5 class="card-title">Latamex</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://www.latamex.com/" target="_blank" class="btn main-button">Visit site</a>
+        </div>
+      </div><div class="card text-bg-dark mb-3" style="width: 18rem;">
+        <img src="../image/ping.png" class="card-img-top" alt="imagen del sitio">
+        <div class="card-body">
+          <h5 class="card-title">Ping</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://www.letsping.com/" target="_blank" class="btn main-button">Visit site</a>
+        </div>
+      </div><div class="card text-bg-dark mb-3" style="width: 18rem;">
+        <img src="../image/claro pay.png" class="card-img-top" alt="imagen del sitio">
+        <div class="card-body">
+          <h5 class="card-title">Claro pay</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://claropay.com.ar/landing" target="_blank" class="btn main-button">Visit site</a>
+        </div>
+      </div>
+   <!---->  
+   <!--
+        <article class="cards">
         <h2 class="subtitle color-white">Latamex</h2>
         <p class="text color-white">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
@@ -68,48 +100,32 @@
           >
         </div>
       </article>
+--> 
+
     </section>
+
+
     <footer class="footer">
-      <div class="footer__personal-info-container">
-        <a class="link-logo" href="../index.html"
-          ><img
-            class="footer__logo"
-            src="../image/avatar.png"
-            width="60"
-            alt="avatar"
-        /></a>
-        <div class="footer__text">
-          <h3>Julián Calvé</h3>
-          <h4>Web 3 Developer</h4>
+      <div class="footer__personal-info-container col-6">
+        <a class="link-logo" href="../index.html"><img class="footer__logo" src="../image/logo.png" width="60"
+            alt="logo" /></a>
+        <div >
+          <h6 class="text-light">Julián Calvé</h6>
+          <h6 class="text-light">Web 3 Developer</h6>
         </div>
       </div>
-      <a
-        class="footer__redes"
-        href="https://www.github.com/juliancalve"
-        target="_blank"
-        ><img
-          class="footer__redes__logo"
-          src="../image/github.png"
-          alt="github"
-      /></a>
-      <a
-        class="footer__redes"
-        href="https://www.linkedin.com/in/juliancalve"
-        target="_blank"
-        ><img
-          class="footer__redes__logo"
-          src="../image/linkedin.png"
-          alt="linkedin"
-      /></a>
-      <a
-        class="footer__redes"
-        href="mailto:julian.calve@gmail.com"
-        target="_blank"
-        ><img
-          class="footer__redes__logo"
-          src="../image/mail ico.svg"
-          alt="gmail"
-      /></a>
+      <div class="d-flex justify-content-end col-5">
+        <a class="footer__redes" href="https://www.github.com/juliancalve" target="_blank"><img
+            class="footer__redes__logo" src="../image/github.svg" alt="github" /></a>
+        <a class="footer__redes" href="https://www.linkedin.com/in/juliancalve" target="_blank"><img
+            class="footer__redes__logo" src="../image/link.svg" alt="linkedin" /></a>
+        <a class="footer__redes" href="mailto:julian.calve@gmail.com" target="_blank"><img
+            class="footer__redes__logo" src="../image/gmail.svg" alt="gmail" /></a>
+      </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   </body>
 </html>

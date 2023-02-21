@@ -27,7 +27,7 @@ a {
 }
 
 .header {
-    background-color: #1F2327;
+    background-color: #212529;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,18 +91,16 @@ a {
 }
 
 .main-button {
-    color: #FBFBF2;
-    background-color: #343A40;
+    color: #FBFBF2 !important;
+    background-color: #343A40 !important;
     padding: 8px 30px;
-    border-radius: 50px;
+    border-radius: 50px !important;
     border: none;
-
-
     cursor: pointer;
 }
 
 .main-button:hover{
-    background-color: #1F2327;
+    background-color: #232e38 !important;
 }
 
 .secondary-button {
@@ -124,6 +122,7 @@ a {
     background-color: #1F2327;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .footer__personal-info-container{
@@ -137,18 +136,15 @@ a {
     margin: 70px 30px 70px 70px;
 }
 
-/*
-.footer__text {
-    color: #FBFBF2;
-    margin-right: 800px;
-}*/
+
 
 .footer__redes {
     padding: 20px;
 }
 
 .footer__redes__logo {
-    width: 40px;
+    width: 40px !important;
+    color: #FBFBF2 !important;
 }
 
 
