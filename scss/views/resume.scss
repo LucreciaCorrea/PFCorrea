@@ -1,19 +1,15 @@
 .layout__resume{
     display: flex;
-}
-
-.aside{
-    width: 200px;
-    margin-left: 10%;
+    justify-content: space-evenly;
+    margin-left: 5%;
 }
 
 .container-resume{
     display: flex;
     flex-direction: column;
-    width: 700px;
-    margin-left: 10%;
     margin-bottom: 5%;
     margin-top: 2%;
+    align-items: center;
 }
 
 .list{
@@ -22,4 +18,5 @@
 
 .aside__redes{
     margin-top: 30px;
+    max-width: 210px;
 }
