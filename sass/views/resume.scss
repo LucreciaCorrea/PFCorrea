@@ -1,0 +1,25 @@
+.layout__resume{
+    display: flex;
+}
+
+.aside{
+    width: 200px;
+    margin-left: 10%;
+}
+
+.container-resume{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.list{
+    margin-bottom: 20px;
+}
+
+.aside__redes{
+    margin-top: 30px;
+}

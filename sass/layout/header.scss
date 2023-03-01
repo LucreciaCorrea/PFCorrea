@@ -1,32 +1,15 @@
-
 .header {
-    background-color: #1F2327;
+    background-color: #212529;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     position: sticky;
     top: 0;
-        &__logo {
-            margin: 10px 0px 10px 80px;
-            width: 50px;
-        }
-        &__nav {
-            display: inline-block;
-            padding-right: 300px;
-        }
-        &__list-container {
-            margin-top: 0;
-        }
-        &__li-nav {
-            display: inline-block;
-            padding: 10px 50px;
-        }
-        &__text {
-            color: #7C8084;
-                &:hover{
-                    color: #FBFBF2;
-                }
-        }
-
+    &__text {
+        color: #7C8084;
+            &:hover{
+                color: #FBFBF2 !important;
+            }
+    }
 }
