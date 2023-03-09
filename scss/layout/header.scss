@@ -10,6 +10,7 @@
         color: #7C8084;
             &:hover{
                 color: #FBFBF2 !important;
+                @include neon($color-red, $color-violet);
             }
     }
 }

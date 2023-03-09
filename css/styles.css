@@ -6,7 +6,8 @@
 
 html {
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  overflow-x: hidden; }
   html body {
     background-color: #0D0E10 !important;
     display: flex;
@@ -47,7 +48,8 @@ a {
   .header__text {
     color: #7C8084; }
     .header__text:hover {
-      color: #FBFBF2 !important; }
+      color: #FBFBF2 !important;
+      text-shadow: 0 0 5px #E3204D, 0 0 10px #E3204D, 0 0 20px #E3204D, 0 0 40px #4835E1, 0 0 80px #4835E1, 0 0 90px #4835E1, 0 0 100px #4835E1, 0 0 150px #4835E1; }
 
 .footer {
   background-color: #1F2327;
@@ -81,7 +83,6 @@ a {
   margin-bottom: 10px; }
 
 .section-about__img {
-  width: 400px;
   display: block;
   margin: auto; }
 
@@ -123,7 +124,7 @@ a {
 .layout__resume {
   display: flex;
   justify-content: space-evenly;
-  margin-left: 5%; }
+  padding-left: 5%; }
 
 .container-resume {
   display: flex;
